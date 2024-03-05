@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.box1 {
+    background-color: white;
+    width: 350px;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 8px 8px 24px 8px;
+    border-radius: 16px;
+    box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24);
+
+}
+
+.box1 .img1 {
+    width: 334px;
+    height: 200px;
+}
+
+.box1 .Head5 {
+    color: var(--theme-dark-default, #16192C);
+
+    /* Headings/h5 */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136.023%; /* 21.764px */
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.box1 .description {
+    color: #425466;
+    font-feature-settings: 'salt' on;
+
+    /* Text/Small/Regular */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 164.286% */
+    margin-bottom: 24px;
+}
+
+.box1 .Button {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    background: #4C6FFF;
+    color: var(--theme-white-default, #FFF);
+
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 12px; /* 100% */
+}
+
+.box1 .Button:hover {
+    background-color: #051766;
+}
+
+.box2 {
+    margin-left: 18px;
+    margin-bottom: 22px;
+}
